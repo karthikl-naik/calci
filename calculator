@@ -14,6 +14,10 @@ float mul(float a, float b)
     return a*b;
 }
 float division(float a,float b)
+if (b==0)
+{
+  printf("not defined/n");
+}
 {
     return a/b;
 }
